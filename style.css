@@ -1,0 +1,193 @@
+body {
+    transition: background-color 0.5s ease;
+    background-color:  #D3DDEB;
+}
+
+.dark-mode {
+    background-color:  #06080B;
+    color:  #E9EEF5;
+}
+
+.toggle-btn {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background: #E9EEF5;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05) inset;
+    box-shadow: -10px -4px 30px rgba(0, 0, 0, 0.05) inset;
+}
+ .circle{
+width: 40px;
+height: 40px;
+border-radius: 99px;
+background:  #E9EEF5;
+position: absolute;
+top: 50%;
+left: 0%;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+transform: translate(10%, -50%);
+box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05) inset;
+box-shadow: -10px -10px 30px rgba(0, 0, 0, 0.05) inset;
+
+}
+svg{
+    width: 20px;
+    position: absolute;
+    justify-self: center;
+}
+.sun{
+color:  #9C8AA8;
+margin-top: 0%;
+}
+.moon{
+color: black;
+margin-top: -160%;
+}
+svg{
+width:20px;
+position: absolute;
+}
+
+
+.containertitle{
+position: absolute;
+display: flex;
+margin-left: 30px;
+margin-top: 50px;
+width: 400px;
+height: 100px;
+gap: 20px;
+justify-content: flex-start;
+padding: 20px;
+}
+.boxi, img{
+top: 40px;
+width: 80px;
+height: 80px;
+
+}
+.boxii {
+margin-top: 0;
+width: 300px;
+height: 100px;
+}
+.boxii h1{
+margin-top: 10px;
+font-family: Comfortaa;
+}
+.boxii .text1{
+color:   #8438B8;
+font-size: x-large;
+}
+.containertext{
+font-family:  Comfortaa;
+padding: 20px;
+margin-top: 20px;
+margin-left: 30px;
+align-self: center;
+width: 400px;
+height: 200px;
+}
+.containertext .text{
+margin-left: 0;
+padding: 20px;
+font-family: Comfortaa;
+font-size: 55px;
+color: #8438B8;
+}
+.containertext , .p{
+
+font-size: 60px;
+font-family: Comfortaa;
+}
+.containertext1 p{
+width: 500px;
+font-size: 18px;
+font-family: Comfortaa;
+margin-top: 20px;
+}
+.box3{
+position: absolute;
+display: block;
+margin-top: 150px;
+margin-left: 50px;
+font-family: Comfortaa;
+width: 350px;
+height: 450px;
+}
+.box3 h2{
+font-size: xxx-large;
+}
+.box3 p{
+font-size: 16px;
+}
+.box1 , .box2 {
+position: absolute;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.box1{
+right: 120px;
+bottom: 120px; 
+
+}
+.box2{
+right: 500px;
+top: 40px;
+}
+.box1 img{
+width: 100%;
+height: 100%;
+display: block;
+}
+.box2 img{
+width: 100%;
+height: 100%;
+display: block;
+}
+
+#toggle1{
+    top: 450px;
+    left: 10px;
+    position: absolute;
+    display: block;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+    box-shadow: inset 0 8px 60px rgba(0,0,0,0.1),
+                 inset 0 8px 8px rgba(0,0,0,0.1),
+                 inset 0 -4px 4px rgba(0,0,0,0.1);
+    
+    }
+    #toggle1 .indicator{
+        position: absolute;
+        right: 0;
+        top:  0;
+        width: 100px;
+        height: 50px;
+        border-radius: 10px;
+        transform: scale(0.9);
+        box-shadow: 0 8px 40px rgba(0,0,0,0.5),
+                        inset 0 4px 4px rgba(255,255,255,0.2),
+                        inset 0 -4px 4px rgba(255,255,255,0.2);
+    
+    }
+    .right{
+        justify-self: center;
+        top: 15px;
+        left: 40px;
+    }
+
+
